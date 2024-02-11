@@ -1,0 +1,8 @@
+void main (){
+  String firstname = "John";
+  String lastname = "Doe";
+
+  String fullname = firstname +" "+ lastname;
+  print("FullName = $fullname");
+}
+
