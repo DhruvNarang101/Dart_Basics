@@ -1,0 +1,26 @@
+class Employee {
+  late String name;
+  late int age;
+  late String profile;
+  late int salary;
+
+  Employee(this.name,this.age,this.profile,this.salary){
+  }
+
+  void display(){
+print("Name = $name");
+print("Age = $age");
+print("Profile =$profile");
+print("Salary = $salary");
+  }
+}
+void main (){
+Employee E1 = Employee("ASHU", 23, "Web Dev", 40000);
+print("Details of Employee 1");
+E1.display();
+
+print("Details of Employee 2");
+Employee E2 = Employee("SAHIL", 25, "APP DEV", 500000);
+E2.display();
+
+}
