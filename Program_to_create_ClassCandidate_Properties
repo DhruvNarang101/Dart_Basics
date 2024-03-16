@@ -1,0 +1,14 @@
+class Candidate {
+   String? name;
+   int? age;
+   int? rollno;
+
+  Candidate(this.name ,this.age , this.rollno){
+  }
+}
+void main (){
+Candidate candidate1 = Candidate("John", 25, 123);
+print("Name = ${candidate1.name}");
+print("Age = ${candidate1.age}");
+print("Rollno = ${candidate1.rollno}");
+}
